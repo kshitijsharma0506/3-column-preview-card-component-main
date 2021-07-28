@@ -1,0 +1,92 @@
+/**/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:  hsla(0, 0%, 100%, 0.75) !important;
+    
+    font-family: 'Lexend Deca', sans-serif !important;
+
+    
+}
+p{
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+.learn-btn{
+    border-radius: 20px !important;
+    border: 2px solid  hsla(0, 0%, 100%, 0.75) !important;
+    background-color:  hsla(0, 0%, 100%, 0.75) !important;
+}
+h2{
+    
+    font-family: 'Big Shoulders Display', cursive !important;
+    font-weight: 700 !important;
+}
+
+#sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+    
+}
+
+#sedan .learn-btn{
+    color: hsl(31, 77%, 52%) !important;
+}
+
+#sedan .learn-btn:hover{
+    color: #fff !important;
+    background-color: hsl(31, 77%, 52%) !important;
+}
+
+#suv{
+    background-color:hsl(184, 100%, 22%);
+}
+
+#suv .learn-btn{
+    color:hsl(184, 100%, 22%) !important;
+}
+
+
+#lux{
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#lux .learn-btn{
+    color:hsl(179, 100%, 13%) !important;
+}
+
+.myContainer{
+    top: 20vh !important;
+    position: relative;
+    
+}
+
+#suv .learn-btn:hover{
+    color: #fff !important;
+    background-color:hsl(184, 100%, 22%)  !important;
+}
+
+#lux .learn-btn:hover{
+    color: #fff !important;
+    background-color:hsl(179, 100%, 13%) !important;
+}
+
+@media only screen and (max-width:430px){
+    .myContainer{
+        margin: 2em !important;
+        width: auto !important;
+    }
+}
+
+.footer{
+    position: relative;
+    top: 25vh;
+    color: black !important;
+}
